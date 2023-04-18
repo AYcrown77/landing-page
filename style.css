@@ -43,8 +43,7 @@ a {
 .container1 .hero {
   margin: 5rem 0;
   display: flex;
-  flex: 0;
-  justify-content: space-between;
+  gap: 1rem;
 }
 
 .hero-left h1{
@@ -68,4 +67,28 @@ a {
   color: #E5E7EB;
   border-radius: 10px;
   border: #3882F6;
+}
+
+.container2 {
+  padding: 2rem 12rem; 
+}
+.container2 .top {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+}
+
+.pic-text img {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.sub-container2 {
+  display: flex;
+  margin: 3rem 5rem 5rem 5rem;
+  gap: 1rem;
+  text-align: center;
+  color: #1F2937;
 }
